@@ -1,10 +1,11 @@
 ---
 name: ai-playbook
-description: Advanced AI coding agent brain - skills, workflows, rules, and execution patterns for KiloCode. Use for any coding, debugging, data engineering, DevOps, or automation tasks.
+description: Use for coding, debugging, data engineering, DevOps, and automation tasks.
 version: "1.0.0"
 author: OssamaTaha
 license: MIT
 emoji: "🧠"
+tags: [coding, debugging, devops, data-engineering, automation]
 ---
 
 # AI Playbook - KiloCode Agent Brain
