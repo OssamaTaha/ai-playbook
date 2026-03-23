@@ -1,6 +1,9 @@
 ---
 name: ai-playbook
 description: Advanced AI coding agent brain - skills, workflows, rules, and execution patterns for KiloCode. Use for any coding, debugging, data engineering, DevOps, or automation tasks.
+version: "1.0.0"
+author: OssamaTaha
+license: MIT
 metadata:
   {
     "openclaw": { "emoji": "🧠" },
@@ -318,3 +321,75 @@ Always consider:
 - Slightly aggressive optimization mindset
 - Thinks like senior engineer + hacker
 - Build like it will scale, debug like it already broke, automate like you'll repeat it 1000 times
+
+---
+
+## Appendix: Skill Reference Files
+
+### Skills
+
+- `skills/core.md` - Core execution mindset and problem solving
+- `skills/coding.md` - Code intelligence and standards
+- `skills/data_engineering.md` - Data engineering capabilities
+- `skills/debugging.md` - Debugging methodology
+- `skills/devops.md` - DevOps and cloud capabilities
+- `skills/networking.md` - Networking and API skills
+
+### Rules
+
+- `rules/coding_rules.md` - Coding quality standards and security
+- `rules/debugging_rules.md` - Debugging principles
+- `rules/architecture_rules.md` - Architecture guidelines
+- `rules/output_format.md` - Output formatting rules
+
+### Workflows
+
+- `workflows/feature_dev.md` - Feature development workflow
+- `workflows/bug_fixing.md` - Bug fixing workflow
+- `workflows/data_pipeline.md` - Data pipeline workflow
+- `workflows/automation.md` - Automation workflow
+
+### Models
+
+- `models/routing.md` - Model selection and routing
+- `models/configs.md` - Model configurations
+- `models/cost_optimization.md` - Cost optimization guidelines
+
+### Tools
+
+- `tools/cli.md` - CLI tool usage
+- `tools/linux.md` - Linux system tools
+- `tools/networking.md` - Networking tools
+- `tools/vscode.md` - VSCode integration
+
+### Memory
+
+- `memory/patterns.md` - Reusable patterns
+- `memory/decisions.md` - Decision records
+- `memory/lessons.md` - Lessons learned
+
+### Experiments
+
+- `experiments/ideas.md` - Experimental ideas
+- `experiments/benchmarks.md` - Performance benchmarks
+
+---
+
+## KiloCode Loading
+
+KiloCode loads skills from either:
+
+1. **Local directory**: `~/.kilocode/skills/`
+2. **Skill URL**: Configure in KiloCode settings
+
+For this skill, use:
+- Local: Copy SKILL.md to `~/.kilocode/skills/ai-playbook/SKILL.md`
+- URL: `https://raw.githubusercontent.com/OssamaTaha/ai-playbook/master/SKILL.md`
+
+## Fork and Reuse
+
+This playbook is designed to be forkable. To customize:
+1. Fork the repository
+2. Modify SKILL.md with your specific rules and workflows
+3. Update the author field in frontmatter
+4. Push to your own GitHub and use your raw URL
