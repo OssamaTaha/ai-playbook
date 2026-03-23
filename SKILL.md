@@ -4,10 +4,7 @@ description: Advanced AI coding agent brain - skills, workflows, rules, and exec
 version: "1.0.0"
 author: OssamaTaha
 license: MIT
-metadata:
-  {
-    "openclaw": { "emoji": "🧠" },
-  }
+emoji: "🧠"
 ---
 
 # AI Playbook - KiloCode Agent Brain
